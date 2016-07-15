@@ -327,4 +327,135 @@ a {
 
 
 
-/*------------------------------FACTS SECTION------------------------------*/
+/*------------------------------AMAZING SERVICES------------------------------*/
+
+.amazing-services{
+	background-color: #fff;
+	padding: 90px 0 70px 0;
+}
+
+.services-header{
+	text-align: center;
+	color: #333;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 24px;
+	line-height: 24px;
+}
+
+.services-title{
+	position: relative;
+	color: #333333;
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	padding: 24px 0 40px 0;
+	margin: 0 0 22px 0;
+}
+
+.services-title::after{
+	position: absolute;
+	content: "";
+	height: 3px;
+	width: 60px;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: #f38181;
+}
+
+.services-block-first{
+	float: left;
+	border-bottom: 1px solid #999;
+}
+
+.services-block-second{
+	float: left;
+}
+
+.modify-items{
+	padding-left: 90px;
+}
+
+.services-items-title{
+	display: inline-block;
+	padding-top: 50px;
+	font-size: 14px;
+	line-height: 14px;
+	font-family: 'Montserrat', sans-serif;
+	color: #333;
+	text-transform: uppercase;
+}
+
+.services-items-content{
+	margin: 18px 0 50px 0;
+	font-size: 15px;
+	line-height: 24px;
+	width: 280px;
+}
+
+.photography-item, .web-design-item, .creativity-item, .seo-item, .css-html-item, .digital-item{
+	position: relative;
+}
+
+.photography-item::after{
+	position: absolute;
+	content: "";
+	width: 32px;
+	height: 31px;
+	top: 52px;
+	left: 30px;
+	background: url("../images/photography-item.png")no-repeat center;
+}
+
+.web-design-item::after{
+	position: absolute;
+	content: "";
+	width: 32px;
+	height: 31px;
+	top: 52px;
+	left: 30px;
+	background: url("../images/web-design-item.png")no-repeat center;
+}
+
+.creativity-item::after{
+	position: absolute;
+	content: "";
+	width: 32px;
+	height: 31px;
+	top: 52px;
+	left: 30px;
+	background: url("../images/creativity-item.png")no-repeat center;
+}
+
+.seo-item::after{
+	position: absolute;
+	content: "";
+	width: 32px;
+	height: 31px;
+	top: 52px;
+	left: 30px;
+	background: url("../images/seo-item.png")no-repeat center;
+}
+
+.css-html-item::after{
+	position: absolute;
+	content: "";
+	width: 32px;
+	height: 31px;
+	top: 52px;
+	left: 30px;
+	background: url("../images/css-html-item.png")no-repeat center;
+}
+
+.digital-item::after{
+	position: absolute;
+	content: "";
+	width: 32px;
+	height: 31px;
+	top: 52px;
+	left: 30px;
+	background: url("../images/digital-item.png")no-repeat center;
+}
