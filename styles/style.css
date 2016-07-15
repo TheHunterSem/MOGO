@@ -1,0 +1,128 @@
+body{
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif; 
+}
+
+.container{
+	width: 1200px;
+}
+
+
+
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Roboto', sans-serif;*/
+
+
+
+/*------------------------------HEADER------------------------------*/
+
+.header-bg{
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	background: url('../images/header-section-bg.jpg')center no-repeat;
+	background-size: cover;
+
+}
+
+.header-bg::after{
+	display: block;
+	content: "";
+	position: absolute;
+	top:0; 
+	left:0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(#f38181, #fce38a);
+	opacity: 0.9;
+
+}
+
+.header-content{
+	position: relative;
+	text-align: center;
+	min-height: 480px;
+	max-height: 780px;
+	padding: 140px 0 0 0;
+	z-index: 5;
+}
+
+.header-content.row{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+}
+
+.main-header{
+	padding: 0;
+	margin: 0;
+	color: #fff;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 72px;
+	line-height: 72px;
+	/*margin-top: 90px;*/
+}
+
+.main-title{
+	position: relative;
+	display: inline-block;
+	padding: 40px 0 70px 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 150px;
+	line-height: 150px;
+	width: 810px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.main-title::after{
+	position: absolute;
+	content: "";
+	width: 60px;
+	height: 3px;
+	background-color: #fff;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.header-content-link{
+	display: inline-block;
+	margin: 50px 0 50px 0;
+	color: #fff;
+	font-size: 14px;
+	line-height: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 12px 30px;
+	border: 3px solid #fff;
+}
+
+.header-content-link:hover{
+	text-decoration: none;
+	color: #f38181;
+	border: 3px solid #f38181;
+	transition: 0.4s;
+}
+
+.header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+}
+
+.nav{
+	list-style: none;
+	float: right;
+	padding: 0;
+	margin: 0;
+}
