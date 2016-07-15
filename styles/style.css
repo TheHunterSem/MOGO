@@ -99,7 +99,6 @@ a {
 	font-family: 'Kaushan Script', cursive;
 	font-size: 72px;
 	line-height: 72px;
-	/*margin-top: 90px;*/
 }
 
 .main-title{
@@ -241,7 +240,8 @@ a {
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
-	padding: 24px 0 40px 0;
+	padding: 0 0 40px 0;
+	margin: 24px 0 0 0;
 }
 
 .story-title::after{
@@ -260,7 +260,7 @@ a {
 	text-align: center;
 	font-size: 15px;
 	line-height: 24px;
-	color: 999;
+	color: #999;
 }
 
 .story-image{
@@ -351,8 +351,8 @@ a {
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
-	padding: 24px 0 40px 0;
-	margin: 0 0 22px 0;
+	padding: 0 0 40px 0;
+	margin: 24px 0 22px 0;
 }
 
 .services-title::after{
@@ -394,6 +394,7 @@ a {
 	font-size: 15px;
 	line-height: 24px;
 	width: 280px;
+	color: #999;
 }
 
 .photography-item, .web-design-item, .creativity-item, .seo-item, .css-html-item, .digital-item{
@@ -465,14 +466,20 @@ a {
 /*------------------------------UNIQUE DESIGN------------------------------*/
 
 .unique-design{
-	width: 100%;
-	background: url('../images/unique-design-bg.jpg')center;
-	-webkit-background-size: 100%;
-	background-size: 100%;
-	padding: 110px 0 0 0;
+	max-height: 1120px;
+	padding: 0 0 90px 0;
+	text-align: center;
+	position: relative;
+}
+
+.unique-design-bg{
+	background: url('../images/unique-design-bg.jpg')center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
 }
 
 .unique-design-header{
+	margin-top: 110px;
 	text-align: center;
 	color: #333;
 	font-family: 'Kaushan Script', cursive;
@@ -489,8 +496,8 @@ a {
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
-	padding: 24px 0 40px 0;
-	margin: 0 0 22px 0;
+	padding: 0 0 40px 0;
+	margin: 24px 0 22px 0;
 }
 
 .unique-design-title::after{
@@ -502,4 +509,60 @@ a {
 	left: 50%;
 	transform: translateX(-50%);
 	background-color: #f38181;
+}
+
+.unique-design-tablet{
+	display: inline-block;
+}
+
+.unique-design-tel{
+	position: absolute;
+	content: '';
+	right: 300px;
+	bottom: 0px;
+}
+
+
+
+/*------------------------------SERVICE------------------------------*/
+
+
+.service-header{
+	text-align: center;
+	color: #333;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 24px;
+	line-height: 24px;
+}
+
+.service-title{
+	position: relative;
+	color: #333333;
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	padding: 0 0 40px 0;
+	margin: 24px 0 0 0;
+}
+
+.service-title::after{
+	position: absolute;
+	content: "";
+	height: 3px;
+	width: 60px;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: #f38181;
+}
+
+.service-content{
+	padding: 47px 0 104px 0;
+	text-align: center;
+	font-size: 15px;
+	line-height: 24px;
+	color: #999;
 }
