@@ -1,13 +1,24 @@
 $(document).ready(function() {
-            $('a[href^="/#"]').click(function () {
-                elementClick = $(this).attr("href");
-                elementClick = elementClick.substr(1);
-                destination = $(elementClick).offset().top - 53;
-                if($.browser.safari){
-                    $('body').animate( { scrollTop: destination }, 1100 );
-                }else{
-                    $('html').animate( { scrollTop: destination }, 1100 );
-                }
-            return false;
-            });
-        });
+    $("a").click(function () { 
+      var elementClick = $(this).attr("href");
+      var destination = $(elementClick).offset().top;
+      $('html,body').animate( { scrollTop: destination }, 700 );
+      return false;
+    });
+  });
+
+
+$(document).ready(function() {
+
+	var scrollTop = 0;
+
+	$(window).on('scroll', function() {
+        var scrollNow = $(window).scrollTop();
+		if(scrollNow > scrollTop && scrollNow > 5){
+		    $('.header').addClass('setout');
+		} else {
+			$('.header').removeClass('setout');
+		}
+		scrollTop=scrollNow;
+    });
+});
