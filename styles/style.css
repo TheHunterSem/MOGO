@@ -154,6 +154,7 @@ a {
 	right: 0;
 	z-index: 999;
 	transition:top .5s ease;
+	background-color: rgba(232,134,130,.5);
 }
 
 .setout{
@@ -213,3 +214,117 @@ a {
 	color: #fce38a;
 	transition: .3s;
 }
+
+
+
+/*------------------------------STORY ABOUT US------------------------------*/
+
+.story-about-us{
+	background-color: #fff;
+	padding: 90px 0 110px 0;
+}
+
+.story-header{
+	text-align: center;
+	color: #333;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 24px;
+	line-height: 24px;
+}
+
+.story-title{
+	position: relative;
+	color: #333333;
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	padding: 24px 0 40px 0;
+}
+
+.story-title::after{
+	position: absolute;
+	content: "";
+	height: 3px;
+	width: 60px;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: #f38181;
+}
+
+.story-content{
+	padding: 47px 0 104px 0;
+	text-align: center;
+	font-size: 15px;
+	line-height: 24px;
+	color: 999;
+}
+
+.story-image{
+	width: 380px;
+	height: 250px;
+}
+
+.story-image-shadow{
+	box-shadow: 8px 8px 0px 0px rgba(149,225,211,1);
+}
+
+.story-image img{
+	width: 360px;
+	height: 230px;
+}
+
+
+
+/*------------------------------FACTS SECTION------------------------------*/
+
+.facts-section{
+	background-color: #95e1d3;
+}
+
+.facts-items{
+	text-align: center;
+	padding: 90px 0;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	border-top: none;
+	border-bottom: none;
+}
+
+.facts-items-border-left{
+	border-left: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.facts-items-border-right{
+	border-right: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.facts-numbers{
+	color: #fff;
+	font-size: 72px;
+	line-height: 72px;
+	font-family: @Montserrat-font;
+	font-weight: bold;
+}
+
+.facts-title{
+	padding: 30px 0 0 0;
+	color: #fff;
+	font-family: @Montserrat-font;
+	font-size: 14px;
+	line-height: 14px;
+	text-transform: uppercase;
+}
+
+.facts-section .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+
+/*------------------------------FACTS SECTION------------------------------*/
