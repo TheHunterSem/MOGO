@@ -459,3 +459,47 @@ a {
 	left: 30px;
 	background: url("../images/digital-item.png")no-repeat center;
 }
+
+
+
+/*------------------------------UNIQUE DESIGN------------------------------*/
+
+.unique-design{
+	width: 100%;
+	background: url('../images/unique-design-bg.jpg')center;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	padding: 110px 0 0 0;
+}
+
+.unique-design-header{
+	text-align: center;
+	color: #333;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 24px;
+	line-height: 24px;
+}
+
+.unique-design-title{
+	position: relative;
+	color: #333333;
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	padding: 24px 0 40px 0;
+	margin: 0 0 22px 0;
+}
+
+.unique-design-title::after{
+	position: absolute;
+	content: "";
+	height: 3px;
+	width: 60px;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: #f38181;
+}
