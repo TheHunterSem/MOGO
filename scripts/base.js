@@ -27,5 +27,5 @@ $(document).ready(function() {
 
 
 
-//ОТКРЫВАНИЕ-ЗАКРЫВАНИЕ ТАБОВ В РАЗДЕЛЕ SERVICE
+//СЛАЙДЕР
 $('.sl').slick();

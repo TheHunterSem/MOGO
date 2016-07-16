@@ -777,8 +777,114 @@ a {
 	width: 60px;
 	height: 3px;
 	top: 50%;
-	left: 50%;
+	left: 62px;
 	transform: translateY(-50%);
-	transform: translateX(-80%);
 	background-color: #f38181;
 }
+
+
+
+/*------------------------------METT OUR TEAM------------------------------*/
+
+.meet-our-team{
+	background-color: #fff;
+	padding: 90px 0 110px 0;
+}
+
+.meet-header{
+	text-align: center;
+	color: #333;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 24px;
+	line-height: 24px;
+}
+
+.meet-title{
+	position: relative;
+	color: #333333;
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	padding: 0 0 40px 0;
+	margin: 24px 0 0 0;
+}
+
+.meet-title::after{
+	position: absolute;
+	content: "";
+	height: 3px;
+	width: 60px;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: #f38181;
+}
+
+.meet-content{
+	padding: 47px 0 104px 0;
+	text-align: center;
+	font-size: 15px;
+	line-height: 24px;
+	color: #999;
+}
+
+.meet-image-shadow{
+	box-shadow: 8px 8px 0px 0px rgba(149,225,211,1);
+}
+
+.meet-image-soc{
+	position: relative;
+}
+
+.meet-social{
+	position: absolute;
+	content: '';
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%);
+	transform: translateX(-50%);
+	width: 300px;
+}
+
+.meet-social a {
+	color: #f38181;
+	background-color: #fce38a;
+	font-size: 30px;
+	line-height: 30px;
+	padding: 15px 10px;
+}
+
+.meet-social a:hover{
+	color: #fff;
+	background-color: #f38181;
+}
+
+.meet-image{
+	text-align: center;
+}
+
+.meet-image-name{
+	color: #333;
+	font-size: 14px;
+	line-height: 14px;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	margin: 31px 0 0 0;
+	text-transform: uppercase;
+}
+
+.meet-image-prof{
+	color: #999;
+	font-size: 15px;
+	line-height: 15px;
+	padding: 0;
+	margin: 15px 0 0 0;
+	font-style: italic;
+}
+
+
+
+/*------------------------------METT OUR TEAM------------------------------*/
