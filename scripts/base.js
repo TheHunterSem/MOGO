@@ -1,3 +1,4 @@
+// ПЛАВНЫЙ ПЕРЕХОД ПО ЯКОРЯМ
 $(document).ready(function() {
     $("a").click(function () { 
       var elementClick = $(this).attr("href");
@@ -8,6 +9,7 @@ $(document).ready(function() {
   });
 
 
+//ИСЧЕЗАНИЕ-ПОЯВЛЕНИЕ HEADER
 $(document).ready(function() {
 
 	var scrollTop = 0;
@@ -22,3 +24,8 @@ $(document).ready(function() {
 		scrollTop=scrollNow;
     });
 });
+
+
+
+//ОТКРЫВАНИЕ-ЗАКРЫВАНИЕ ТАБОВ В РАЗДЕЛЕ SERVICE
+$('.sl').slick();
