@@ -346,6 +346,7 @@ a {
 .amazing-services{
 	background-color: #fff;
 	padding: 90px 0 70px 0;
+	position: relative;
 }
 
 .services-header{
@@ -383,10 +384,12 @@ a {
 .services-block-first{
 	float: left;
 	border-bottom: 1px solid #999;
+	margin: 0 0 0 40px;
 }
 
 .services-block-second{
 	float: left;
+	margin: 0 0 0 40px;
 }
 
 .modify-items{
@@ -887,4 +890,122 @@ a {
 
 
 
-/*------------------------------METT OUR TEAM------------------------------*/
+/*------------------------------LOGOS------------------------------*/
+
+.logos{
+	background-color: #f8f8f8;
+	text-align: center;
+}
+
+.logos img{
+	display: inline-block;
+	padding: 0;
+	margin: 50px 0;
+}
+
+
+
+/*------------------------------LOGOS------------------------------*/
+
+.some-of-our-work{
+	background-color: #fff;
+	padding: 90px 0 110px 0;
+}
+
+
+.work-header{
+	text-align: center;
+	color: #333;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 24px;
+	line-height: 24px;
+}
+
+.work-title{
+	position: relative;
+	color: #333333;
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	padding: 0 0 40px 0;
+	margin: 24px 0 0 0;
+}
+
+.work-title::after{
+	position: absolute;
+	content: "";
+	height: 3px;
+	width: 60px;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: #f38181;
+}
+
+.work-content{
+	padding: 47px 0 104px 0;
+	text-align: center;
+	font-size: 15px;
+	line-height: 24px;
+	color: #999;
+}
+
+
+
+/*------------------------------testimonial slider------------------------------*/
+
+.testimonial{
+	background-color: #f8f8f8;
+	width: 100%;
+	float: left;
+}
+
+.sl{
+	padding: 70px 60px;
+	position: relative;
+}
+
+.testimonial-img{
+	display: inline-block;
+	float: left;
+	
+}
+
+.testimonial-title{
+	display: block;
+	float: left;
+	padding: 0;
+	margin: 25px 0 15px 60px;
+	width: 800px;
+	color: #999;
+	font-style: italic;
+	font-size: 24px;
+	line-height: 36px;
+}
+
+.testimonial-neme{
+	position: relative;
+	display: block;
+	float: left;
+	padding: 0 0 0 140px;
+	font-size: 24px;
+	line-height: 24px;
+	color: #333;
+	margin: 0;
+	font-family: 'Kaushan Script', cursive;
+
+}
+
+.testimonial-neme::before{
+	position: absolute;
+	content: '';
+	width: 60px;
+	height: 3px;
+	top: 50%;
+	left: 62px;
+	transform: translateY(-50%);
+	background-color: #f38181;
+}
