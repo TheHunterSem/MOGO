@@ -908,7 +908,7 @@ a {
 
 .some-of-our-work{
 	background-color: #fff;
-	padding: 90px 0 110px 0;
+	padding: 90px 0 20px 0;
 }
 
 
@@ -952,20 +952,21 @@ a {
 	color: #999;
 }
 
+.left-images{
+	text-align: center;
+}
+
 .left-images img{
 	padding: 0;
 	margin: 0;
 	display: inline-block;
-	float: left;
-	width: 280px;
-	height: 190px;
+	width: 380px;
+	height: 290px;
 }
-
 
 /*------------------------------testimonial slider------------------------------*/
 
 .testimonial{
-	background-color: #f8f8f8;
 	width: 100%;
 	float: left;
 }
@@ -1016,3 +1017,8 @@ a {
 	transform: translateY(-50%);
 	background-color: #f38181;
 }
+
+
+
+
+/*------------------------------HAPPY CLIENTS------------------------------*/
