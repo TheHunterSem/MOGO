@@ -968,7 +968,6 @@ a {
 
 .testimonial{
 	width: 100%;
-	float: left;
 }
 
 .sl{
@@ -1022,3 +1021,86 @@ a {
 
 
 /*------------------------------HAPPY CLIENTS------------------------------*/
+
+.happy-clients{
+	padding: 110px 0 120px 0;
+	background: url('../images/happy-clients-bg.jpg')center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.clients-header{
+	text-align: center;
+	color: #333;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 24px;
+	line-height: 24px;
+	margin: 0;
+}
+
+.clients-title{
+	position: relative;
+	color: #333333;
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	padding: 0 0 40px 0;
+	margin: 24px 0 15px 0;
+}
+
+.clients-title::after{
+	position: absolute;
+	content: "";
+	height: 3px;
+	width: 60px;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: #f38181;
+}
+
+.happy-clients-item{
+	margin: 70px 0 0 0;
+	float: left;
+}
+
+.clients-item-name{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	line-height: 14px;
+	padding: 0;
+	margin: 0;
+	color: #333;
+}
+
+.clients-item-skill{
+	position: relative;
+	color: #333;
+	font-style: italic;
+	font-size: 15px;
+	line-height: 15px;
+	padding: 0 0 45px 0;
+	margin: 15px 0 0 0;
+}
+
+.clients-item-skill::after{
+	position: absolute;
+	content: "";
+	height: 3px;
+	width: 60px;
+	top: 35px;
+	left: 0;
+	background-color: #f38181;
+}
+
+.clients-item-content{
+	color: #999;
+	font-size: 15px;
+	line-height: 15px;
+	padding: 0;
+	margin: 0;
+	width: 380px;
+}
