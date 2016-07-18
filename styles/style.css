@@ -1307,7 +1307,7 @@ a {
 .contacts{
 	float: left;
 	max-width: 475px;
-	margin-right: 35px;
+	margin-right: 40px;
 }
 
 .logo{
@@ -1415,10 +1415,68 @@ a {
 
 .blogs{
 	float: left;
+	margin: 0 15px 0 0;
+	max-width: 360px;
 }
 
-.blogs p{
+.blog-title{
 	font-family: 'Montserrat', sans-serif;
 	color: #333;
 	text-transform: uppercase;
+	margin: 10px 0 0 0;
+}
+
+.blog-item{
+	margin: 30px 0 0 0;
+	float: left;
+}
+
+.blog-img{
+	display: inline-block;
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+.blog-content{
+	text-transform: uppercase;
+	color: #333;
+	font-size: 12px;
+	line-height: 12px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.blog-date{
+	color: #999;
+	font-style: italic;
+}
+
+.blog-item a:hover + .blog-content{
+	color: #f38181;
+}
+
+.instagram{
+	float: left;
+	max-width: 290px;
+}
+
+.instagram-item{
+	margin: 25px 0 0 0;
+}
+
+.instagram-title{
+	font-family: 'Montserrat', sans-serif;
+	color: #333;
+	text-transform: uppercase;
+	margin: 10px 0 0 0;
+}
+
+.view-more-photos{
+	display: block;
+	margin: 15px 0 0 0;
+	font-style: italic;
+	color: #999;
+}
+
+.view-more-photos:hover{
+	color: #f38181;
 }
