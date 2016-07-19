@@ -7,6 +7,11 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,300italic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="styles/slick.css">
+    <link rel="stylesheet" type="text/css" href="styles/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/media.css">
     <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
@@ -23,97 +28,209 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" type="text/css" href="styles/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="styles/style.css">
-    <title>MoGo</title>
+    <title>MoGo</title>   
 </head>
 
 <body id="top">
 	<header class="header">
-		<div class="navigation">
-			<div class="container">
-	          <div class="header-navigation"><a href="#top" class="brand">MoGo</a>
-	            <ul class="nav">
-	              <li><a href="#about">about</a></li>
-	              <li><a href="#service">service</a></li>
-	              <li><a href="#work">work</a></li>
-	              <li><a href="#blog">blog</a></li>
-	              <li><a href="#contact">contact</a></li>
-	              <li><a href="#" class="cart"> </a></li>
-	              <li><a href="#" class="glass"></a></li>
-	            </ul>
-	          </div>
-	        </div>
+		<div class="container clearfix">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="header-navigation">
+            <a href="#top" class="brand">MoGo</a>
+            <ul class="nav">
+              <li><a href="#about">about</a></li>
+              <li><a href="#service">service</a></li>
+              <li><a href="#work">work</a></li>
+              <li><a href="#blog">blog</a></li>
+              <li><a href="#contact">contact</a></li>
+              <li><a href="#"><i class="icon-basket"></i></a></li>
+              <li><a href="#"><i class="icon-search"></i></a></li>
+            </ul>
+          </div>
         </div>
+      </div>
+    </div>
 	</header>
 
-    <section class="header-bg">
-		<div class="container">
-	        <div class="header-content">
-	      		<div class="row">
-		            <div class="col-lg-12 col-md-12">
-		              <h1 class="main-header">Creative Template</h1>
-		              <p class="main-title">Welcome to MoGo</p><br><a href="#" class="header-content-link">learn more</a>
-		            </div>
-	      		</div>
-	        </div>
-        </div>
-    </section>
+  <section class="header-bg">
+    <div class="container clearfix">
+  		<div class="row">
+        <div class="header-content">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <h1 class="main-header">Creative Template</h1>
+              <p class="main-title">Welcome to MoGo</p><br><a href="#" class="header-content-link">learn more</a>
+            </div>
+    		</div>
+      </div>
+    </div>
+  </section>
 
-    <!-- <div id="about" class="story-about-us">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 col-md-12">
-            <div class="header-info">
-              <h3 class="story-header">What we do</h3>
-              <p class="story-title">story about us</p>
-              <p class="story-content"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+  <section id="about" class="story-about-us">
+    <div class="container clearfix">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="header-info">
+            <h3 class="story-header">What we do</h3>
+            <p class="story-title">story about us</p>
+            <p class="story-content"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          </div>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="story-images">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+              <div class="story-image"><img src="images/storyaboutus-first-img.jpg" alt="super team"></div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"">
+              <div class="story-image"><img src="images/storyaboutus-second-img.jpg" alt="story image"></div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"">
+              <div class="story-image"><img src="images/storyaboutus-third-img.jpg" alt="design"></div>
             </div>
           </div>
-          <div class="col-lg-12 col-md-12">
-            <div class="story-images">
-              <div class="col-lg-4 col-md-4">
-                <div class="story-image"><img src="images/storyaboutus-first-img.jpg" class="story-image-shadow"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="facts-section">
+    <div class="container clearfix">
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <div class="facts-block">
+            <div class="col-lg-2 col-md-2 col-md-offset-1">
+              <div class="facts-items facts-items-border-left">
+                <span class="facts-numbers">42</span>
+                <p class="facts-title">web design projects</p>
               </div>
-              <div class="col-lg-4 col-md-4">
-                <div class="story-image"><img src="images/storyaboutus-second-img.jpg"></div>
+            </div>
+            <div class="col-lg-2 col-md-2">
+              <div class="facts-items">
+                <span class="facts-numbers">123</span>
+                <p class="facts-title">happy client</p>
               </div>
-              <div class="col-lg-4 col-md-4">
-                <div class="story-image"><img src="images/storyaboutus-third-img.jpg"></div>
+            </div>
+            <div class="col-lg-2 col-md-2">
+              <div class="facts-items">
+                <span class="facts-numbers">15</span>
+                <p class="facts-title">award winner</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-2">
+              <div class="facts-items">
+                <span class="facts-numbers">99</span>
+                <p class="facts-title">cup of coffee</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-2">
+              <div class="facts-items facts-items-border-right">
+                <span class="facts-numbers">24</span>
+                <p class="facts-title">members</p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="facts-section">
-      <div class="container">
+  </section>
+
+  <section class="amazing-services">
+    <div class="container clearfix">
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <div class="header-info">
+            <h3 class="services-header">We work with</h3>
+            <p class="services-title">amazing services</p>
+          </div>
+        </div>
+        <div class="col-lg-12 col-md-12">
+          <div class="services-block-first">
+            <div class="col-lg-4 col-md-4">
+              <div class="photography-item modify-items">
+                <span class="services-items-title">Photography</span>
+                <p class="services-items-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+              <div class="web-design-item modify-items">
+                <span class="services-items-title">Web Design</span>
+                <p class="services-items-content">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+              <div class="creativity-item modify-items">
+                <span class="services-items-title">Creativity</span>
+                <p class="services-items-content">Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+              </div>
+            </div>
+          </div>
+          <div class="services-block-second">
+            <div class="col-lg-4 col-md-4">
+              <div class="seo-item modify-items">
+                <span class="services-items-title">seo</span>
+                <p class="services-items-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+              <div class="css-html-item modify-items">
+                <span class="services-items-title">css/html</span>
+                <p class="services-items-content">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+              <div class="digital-item modify-items">
+                <span class="services-items-title">digital</span>
+                <p class="services-items-content">Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="unique-design">
+    <div class="unique-design-bg">
+      <div class="container clearfix">
         <div class="row">
-          <div class="col-lg-12 col-md-12">
-            <div class="facts-block">
-              <div class="col-lg-2 col-md-2 col-md-offset-1">
-                <div class="facts-items"><span class="facts-numbers">42</span>
-                  <p class="facts-title">web design projects</p>
+          <h3 class="unique-design-header">For all devices</h3>
+          <p class="unique-design-title">unique design</p>
+          <img src="images/for-all-devices.png" alt="tablet" class="unique-design-tablet">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="service" class="service">
+    <div class="container clearfix">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <h3 class="service-header">Service</h3>
+          <p class="service-title">What we do</p>
+          <p class="service-content"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>  
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="srvice-article">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+              <div class="service-img"></div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+              <div class="service-tabs">
+                <div class="tab-photography">
+                  <span class="tab-photography-header">photography</span>
+                  <a href="#" class="service-arrow-down"><i class="icon-down-open"></i></a>
+                  <a href="#" class="service-arrow-up"><i class="icon-up-open"></i></a>
                 </div>
-              </div>
-              <div class="col-lg-2 col-md-2">
-                <div class="facts-items"><span class="facts-numbers">123</span>
-                  <p class="facts-title">happy client</p>
+                <textarea readonly class="service-tabs-area" name="" cols="82" rows="6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</textarea>
+                <div class="tab-creativity">
+                  <span class="tab-creativity-header">creativity</span>
+                  <a href="#" class="service-arrow-down"><i class="icon-down-open"></i></a>
+                  <a href="#" class="service-arrow-up"><i class="icon-up-open"></i></a>
                 </div>
-              </div>
-              <div class="col-lg-2 col-md-2">
-                <div class="facts-items"><span class="facts-numbers">15</span>
-                  <p class="facts-title">award winner</p>
-                </div>
-              </div>
-              <div class="col-lg-2 col-md-2">
-                <div class="facts-items"><span class="facts-numbers">99</span>
-                  <p class="facts-title">cup of coffee</p>
-                </div>
-              </div>
-              <div class="col-lg-2 col-md-2">
-                <div class="facts-items"><span class="facts-numbers">24</span>
-                  <p class="facts-title">members</p>
+                <div class="tab-web-design">
+                  <span class="tab-web-design-header">web-design</span>
+                  <a href="#" class="service-arrow-down"><i class="icon-down-open"></i></a>
+                  <a href="#" class="service-arrow-up"><i class="icon-up-open"></i></a>
                 </div>
               </div>
             </div>
@@ -121,56 +238,320 @@
         </div>
       </div>
     </div>
-    <div id="service" class="amazing-services">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 col-md-12">
-            <div class="header-info">
-              <h3 class="services-header">We work with</h3>
-              <p class="services-title">amazing services</p>
-            </div>
+  </section>
+
+  <section class="quote">
+    <div class="container clearfix">
+      <div class="row">
+        <div class="sl">
+          <div class="quote-slide">
+            <img class="quote-img" src="images/quote-img.png" alt="quote-img">
+            <p class="quote-title">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+            <p class="quote-neme">Jon Doe</p>
           </div>
-          <div class="col-lg-12 col-md-12">
-            <div class="services-block-first">
-              <div class="col-lg-4 col-md-4">
-                <div class="photography-item modify-items"><span class="services-items-title">Photography</span>
-                  <p class="services-items-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4">
-                <div class="web-design-item modify-items"><span class="services-items-title">Web Design</span>
-                  <p class="services-items-content">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4">
-                <div class="creativity-item modify-items"><span class="services-items-title">Creativity</span>
-                  <p class="services-items-content">Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+          <div class="quote-slide">
+            <img class="quote-img" src="images/quote-img.png" alt="quote-img">
+            <p class="quote-title">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+            <p class="quote-neme">Matthew Dix</p>
+          </div>
+          <div class="quote-slide">
+            <img class="quote-img" src="images/quote-img.png" alt="quote-img">
+            <p class="quote-title">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+            <p class="quote-neme">Michael Fertig</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="meet-our-team">
+    <div class="container clearfix">
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <div class="header-info">
+            <h3 class="meet-header">Who we are</h3>
+            <p class="meet-title">meet our team</p>
+            <p class="meet-content"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          </div>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="meet-images">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+              <div class="meet-image">
+                <img src="images/meet-graphic-design.jpg" alt="graphic designer" class="meet-image-soc">
+                <p class="meet-image-name">Matthew Dix</p>
+                <p class="meet-image-prof">Graphic Design</p>
+                <div class="meet-social">
+                  <a href="#"><i class="icon-facebook"></i></a>
+                  <a href="#"><i class="icon-twitter"></i></a>
+                  <a href="#"><i class="icon-pinterest"></i></a>
+                  <a href="#"><i class="icon-instagram"></i></a>
                 </div>
               </div>
             </div>
-            <div class="services-block-second">
-              <div class="col-lg-4 col-md-4">
-                <div class="seo-item modify-items"><span class="services-items-title">seo</span>
-                  <p class="services-items-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+              <div class="meet-image">
+                <img src="images/meet-ux-design.jpg" alt="ux designer" class="meet-image-soc">
+                <p class="meet-image-name">Christopher Campbell</p>
+                <p class="meet-image-prof">Branding/UX design</p>
+                <div class="meet-social">
+                  <a href="#"><i class="icon-facebook"></i></a>
+                  <a href="#"><i class="icon-twitter"></i></a>
+                  <a href="#"><i class="icon-pinterest"></i></a>
+                  <a href="#"><i class="icon-instagram"></i></a>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-4">
-                <div class="css-html-item modify-items"><span class="services-items-title">css/html</span>
-                  <p class="services-items-content">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4">
-                <div class="digital-item modify-items"><span class="services-items-title">digital</span>
-                  <p class="services-items-content">Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+              <div class="meet-image">
+                <img src="images/meet-developer.jpg" alt="developer" class="meet-image-soc">
+                <p class="meet-image-name">Michael Fertig </p>
+                <p class="meet-image-prof">Developer</p>
+                <div class="meet-social">
+                  <a href="#"><i class="icon-facebook"></i></a>
+                  <a href="#"><i class="icon-twitter"></i></a>
+                  <a href="#"><i class="icon-pinterest"></i></a>
+                  <a href="#"><i class="icon-instagram"></i></a>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
+  </section>
 
-    <script src="scripts/jquery.js"></script>
-    <script src="scripts/base.js"></script>
-  </body>
+  <section class="logos">
+    <div class="container clearfix">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="logo-bg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="work" class="some-of-our-work">
+    <div class="container clearfix">
+      <div class="row">
+        <div class="header-info">
+          <h3 class="work-header">What we do</h3>
+          <p class="work-title">some of our work</p>
+          <p class="work-content"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </div>
+    </div>
+    <div class="our-work-images clearfix">
+      <div class="left-images">
+        <img src="images/left-img-1.jpg" alt="left-img-1">
+        <img src="images/left-img-2.jpg" alt="left-img-2">
+        <img src="images/left-img-3.jpg" alt="left-img-3">
+        <img src="images/left-img-4.jpg" alt="left-img-4">
+        <img src="images/left-img-5.jpg" alt="left-img-5">
+        <img src="images/left-img-6.jpg" alt="left-img-6">
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonial">
+    <div class="container clearfix">
+      <div class="row">
+        <div class="sl">
+          <div class="testimonial-slide">
+            <img class="testimonial-img" src="images/testimonail-img.png" alt="quote-img">
+            <p class="testimonial-title">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+            <p class="testimonial-neme">Joshua Earle</p>
+          </div>
+          <div class="testimonial-slide">
+            <img class="testimonial-img" src="images/testimonail-img.png" alt="quote-img">
+            <p class="testimonial-title">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+            <p class="testimonial-neme">Matthew Dix</p>
+          </div>
+          <div class="testimonial-slide">
+            <img class="testimonial-img" src="images/testimonail-img.png" alt="quote-img">
+            <p class="testimonial-title">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+            <p class="testimonial-neme">Michael Fertig</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="happy-clients">
+    <div class="container clearfix">
+      <div class="row">
+        <div class="header-info">
+          <h3 class="clients-header">Happy Clients</h3>
+          <p class="clients-title">what people say</p>
+        </div>
+        <div class="col-lg-12 col-md-12">
+          <div class="happy-clients-items">
+            <div class="col-lg-6 col-md-6">
+              <div class="happy-clients-item">
+                <img src="images/Matthew-Dix.png" alt="Matthew Dix">
+                <p class="clients-item-name">Matthew Dix</p>
+                <p class="clients-item-skill">Graphic Design</p>
+                <p class="clients-item-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <div class="happy-clients-item">
+                <img src="images/Nick-Karvounis.png" alt="Nick Karvounis">
+                <p class="clients-item-name">Nick Karvounis</p>
+                <p class="clients-item-skill">Graphic Design</p>
+                <p class="clients-item-content">Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <div class="happy-clients-item">
+                <img src="images/Jaelynn-Castillo.png" alt="Jaelynn Castillo">
+                <p class="clients-item-name">Jaelynn Castillo</p>
+                <p class="clients-item-skill">Graphic Design</p>
+                <p class="clients-item-content">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <div class="happy-clients-item">
+                <img src="images/Mike-Petrucci.png" alt="Mike Petrucci">
+                <p class="clients-item-name">Mike Petrucci</p>
+                <p class="clients-item-skill">Graphic Design</p>
+                <p class="clients-item-content">Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="blog" class="our-stories">
+    <div class="container clearfix">
+      <div class="row">
+        <div class="header-info">
+          <h3 class="stories-header">Our stories</h3>
+          <p class="stories-title">latest blog</p>
+        </div>
+        <div class="col-lg-12 col-md-12">
+          <div class="stories-items">
+            <div class="col-lg-4 col-md-4">
+              <div class="stories-item">
+                <a class="blog-img-link" href="#"><img src="images/our-stories-1.jpg" alt=""></a>
+                <div class="stories-item-date-block">
+                  <p class="stories-item-date">15 <span class="stories-item-date-edit">Jan</span></p>
+                </div>
+                <p class="stories-item-header">Lorem ipsum dolor sit amet</p>
+                <p class="stories-item-content">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <hr>
+                <a href="#"><i class="icon-eye"></i>542</a>
+                <a href="#"><i class="icon-comment-alt"></i>17</a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+              <div class="stories-item">
+               <a class="blog-img-link" href="#"><img src="images/our-stories-2.jpg" alt=""></a>
+                <div class="stories-item-date-block">
+                  <p class="stories-item-date">14 <span class="stories-item-date-edit">Jan</span></p>
+                </div>
+                <p class="stories-item-header">sed do eiusmod tempor</p>
+                <p class="stories-item-content">Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <hr>
+                <a href="#"><i class="icon-eye"></i>992</a>
+                <a href="#"><i class="icon-comment-alt"></i>42</a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+              <div class="stories-item">
+                <a class="blog-img-link" href="#"><img src="images/our-stories-3.jpg" alt=""></a>
+                <div class="stories-item-date-block">
+                  <p class="stories-item-date">12 <span class="stories-item-date-edit">Jan</span></p>
+                </div>
+                <p class="stories-item-header">incididunt ut labore et dolore</p>
+                <p class="stories-item-content">Elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <hr>
+                <a href="#"><i class="icon-eye"></i>1560</a>
+                <a href="#"><i class="icon-comment-alt"></i>98</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="open-map">
+    <div class="container clearfix">
+      <div class="row">
+        <a href="#" class="open-map-link">open map</a>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact" class="footer">
+    <div class="container clearfix">
+      <div class="row">
+        <div class="contacts">
+          <a href="#top" class="logo">MoGo</a>
+          <p class="contacts-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          <div class="socials">
+            <p class="followers"><span>15k</span> followers</p>
+            <hr>
+            <p class="follow-us">Follow Us:</p>
+            <a class="facebook" href=""><i class="icon-facebook"></i></a>
+            <a class="twitter" href=""><i class="icon-twitter"></i></a>
+            <a class="instagram" href=""><i class="icon-instagram"></i></a>
+            <a class="pinterest" href=""><i class="icon-pinterest"></i></a>
+            <a class="gplus" href=""><i class="icon-gplus"></i></a>
+            <a class="youtube-play" href=""><i class="icon-youtube-play"></i></a>
+            <a class="dribbble" href=""><i class="icon-dribbble"></i></a>
+            <a class="tumblr" href=""><i class="icon-tumblr"></i></a>
+            <div class="form-subscribe">
+              <form>
+                <input type="search" placeholder="Your Email...">
+                <button type="button">subscribe</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="blogs">
+          <p class="blog-title">blogs</p>
+          <div class="blog-item">
+            <a href="#"><img class="blog-img" src="images/blog-1.jpg" alt="blog-1"></a>
+            <p class="blog-content">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+            <p class="blog-date">Jan 9, 2016</p>
+          </div>
+          <div class="blog-item">
+            <a href="#"><img class="blog-img" src="images/blog-2.jpg" alt="blog-2"></a>
+            <p class="blog-content">Consectetur adipiscing elit, sed do eiusmod tempor</p>
+            <p class="blog-date">Jan 9, 2016</p>
+          </div>
+          <div class="blog-item">
+            <a href="#"><img class="blog-img" src="images/blog-3.jpg" alt="blog-3"></a>
+            <p class="blog-content">sed do eiusmod tempor incididunt ut labore</p>
+            <p class="blog-date">Jan 9, 2016</p>
+          </div>
+        </div>
+        <div class="instagram">
+          <p class="instagram-title">instagram</p>
+          <div class="instagram-item">
+            <a href="#"><img src="images/instagram1.jpg" alt="instagram"></a>
+            <a href="#"><img src="images/instagram2.jpg" alt="instagram"></a>
+            <a href="#"><img src="images/instagram3.jpg" alt="instagram"></a>
+            <a href="#"><img src="images/instagram4.jpg" alt="instagram"></a>
+            <a href="#"><img src="images/instagram5.jpg" alt="instagram"></a>
+            <a href="#"><img src="images/instagram6.jpg" alt="instagram"></a>
+            <a href="#"><img src="images/instagram7.jpg" alt="instagram"></a>
+            <a href="#"><img src="images/instagram8.jpg" alt="instagram"></a>
+            <a href="#"><img src="images/instagram9.jpg" alt="instagram"></a>
+          </div>
+          <a class="view-more-photos" href="#">View more photos</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<script src="scripts/jquery.js"></script>
+<script src="scripts/slick.min.js"></script>
+<script src="scripts/base.js"></script>
+</body>
 </html>
