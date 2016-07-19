@@ -282,16 +282,14 @@ a {
 	height: 250px;
 }
 
-.story-image-shadow{
-	box-shadow: 8px 8px 0px 0px rgba(149,225,211,1);
-}
-
 .story-image img{
 	width: 360px;
 	height: 230px;
 }
 
-
+.story-image img:hover{
+	box-shadow: 8px 8px 0px 0px rgba(149,225,211,1);
+}
 
 /*------------------------------FACTS SECTION------------------------------*/
 
@@ -833,10 +831,6 @@ a {
 	color: #999;
 }
 
-.meet-image-shadow{
-	box-shadow: 8px 8px 0px 0px rgba(149,225,211,1);
-}
-
 .meet-image-soc{
 	position: relative;
 }
@@ -866,6 +860,18 @@ a {
 
 .meet-image{
 	text-align: center;
+}
+
+.meet-image-soc:hover{
+	box-shadow: 8px 8px 0px 0px rgba(149,225,211,1);
+}
+
+.meet-image .meet-social{
+	display: none;
+}
+
+.meet-image:hover .meet-social{
+	display: block;
 }
 
 .meet-image-name{
@@ -957,8 +963,7 @@ a {
 }
 
 .left-images img{
-	padding: 0;
-	margin: 0;
+	/*float: left;*/
 	display: inline-block;
 	width: 380px;
 	height: 290px;
@@ -1197,6 +1202,7 @@ a {
 }
 
 .stories-item a{
+	display: block;
 	color: #999;
 	margin: 0 7px 0 0;
 	font-style: italic;
@@ -1463,6 +1469,11 @@ a {
 	margin: 25px 0 0 0;
 }
 
+.instagram-item a {
+	display: inline-block;
+	margin-top: 3px;
+}
+
 .instagram-title{
 	font-family: 'Montserrat', sans-serif;
 	color: #333;
@@ -1480,3 +1491,4 @@ a {
 .view-more-photos:hover{
 	color: #f38181;
 }
+
