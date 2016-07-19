@@ -53,9 +53,9 @@ body{
 .icon-dribbble:before { content: '\f31b'; } /* '' */
 .icon-search:before { content: '\f50d'; } /* '' */
 
-.container{
+/*.container{
 	width: 1200px;
-}
+}*/
 
 /*font-family: 'Montserrat', sans-serif;
 font-family: 'Kaushan Script', cursive;
@@ -278,6 +278,7 @@ a {
 }
 
 .story-image{
+	margin: 0 auto;
 	width: 380px;
 	height: 250px;
 }
@@ -295,6 +296,7 @@ a {
 
 .facts-section{
 	background-color: #95e1d3;
+	width: 100%;
 }
 
 .facts-items{
@@ -591,8 +593,8 @@ a {
 	float: left;
 	display: block;
 	background: url('../images/service-img.jpg')center no-repeat;
-	-webkit-background-size: 100%;
-	background-size: 100%;
+	-webkit-background-size: contain;
+	background-size: contain;
 	width: 570px;
 	height: 380px;
 }
@@ -602,10 +604,10 @@ a {
 	margin-left: 30px;
 }
 
-.tab-photography{
+.tab-photography,.tab-creativity,.tab-web-design{
 	position: relative;
 	float: left;
-	width: 600px;
+	width: 590px;
 	border: 1px solid #e5e5e5;
 }
 
@@ -631,13 +633,6 @@ a {
 	font-family: 'Montserrat', sans-serif;
 }
 
-.tab-creativity{
-	position: relative;
-	float: left;
-	width: 600px;
-	border: 1px solid #e5e5e5;
-}
-
 .tab-creativity::before{
 	position: absolute;
 	content: '';
@@ -658,13 +653,6 @@ a {
 	line-height: 14px;
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
-}
-
-.tab-web-design{
-	position: relative;
-	float: left;
-	width: 600px;
-	border: 1px solid #e5e5e5;
 }
 
 .tab-web-design::before{
@@ -710,7 +698,7 @@ a {
 }
 
 .service-tabs-area {
-	width: 600px;
+	width: 590px;
 	height: 172px;
 	padding: 20px 20px;
 	resize: none;
@@ -743,7 +731,6 @@ a {
 .quote-img{
 	display: inline-block;
 	float: left;
-
 }
 
 .quote-title{
@@ -899,15 +886,14 @@ a {
 
 .logos{
 	background-color: #f8f8f8;
-	text-align: center;
 }
 
-.logos img{
-	display: inline-block;
-	padding: 0;
-	margin: 50px 0;
+.logo-bg{
+	background: url('../images/logos.png')center no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+	padding: 100px 0;
 }
-
 
 
 /*------------------------------SOME OF OUR WORK------------------------------*/
@@ -967,6 +953,7 @@ a {
 	display: inline-block;
 	width: 380px;
 	height: 290px;
+	text-align: center;
 }
 
 /*------------------------------testimonial slider------------------------------*/
@@ -983,7 +970,7 @@ a {
 .testimonial-img{
 	display: inline-block;
 	float: left;
-	
+	padding-bottom: 20px;
 }
 
 .testimonial-title{
@@ -991,7 +978,7 @@ a {
 	float: left;
 	padding: 0;
 	margin: 25px 0 15px 60px;
-	width: 800px;
+	width: 750px;
 	color: #999;
 	font-style: italic;
 	font-size: 24px;
@@ -1186,7 +1173,12 @@ a {
 }
 
 .stories-item{
-	max-width: 380px;
+	max-width: 340px;
+}
+
+.stories-item img{
+	width: 340px;
+	height: 200px;
 }
 
 .icon-eye{
@@ -1202,7 +1194,6 @@ a {
 }
 
 .stories-item a{
-	display: block;
 	color: #999;
 	margin: 0 7px 0 0;
 	font-style: italic;
@@ -1462,7 +1453,7 @@ a {
 
 .instagram{
 	float: left;
-	max-width: 290px;
+	max-width: 272px;
 }
 
 .instagram-item{
